@@ -1,0 +1,43 @@
+#include <iostream>
+
+using namespace std;
+
+//SOMA
+float soma (float num1, float num2){
+	return num1 + num2;
+}
+
+
+//SUBTRACAO
+float subtracao (float num1, float num2){
+return num1 - num2;
+}
+
+//MULTIPLICACAO       
+float multiplicacao (float num1, float num2){
+return num1 * num2;
+}
+
+//DIVISAO
+float divisao (float num1, float num2){
+return num1 / num2;
+}
+
+int main(){
+	float primeiroNum;
+	float segundoNum;
+	
+	cout <<"Entre com o primeiro numero:";
+	cin >> primeiroNum;
+	
+	cout <<"Entre com o segundo numero:";
+	cin >> segundoNum;
+	
+	cout << "Soma: " << soma (primeiroNum, segundoNum) << "\n";
+	cout << "Subtracao: " << subtracao (primeiroNum, segundoNum) << "\n";
+	cout << "Multiplicacao: " << multiplicacao (primeiroNum, segundoNum) << "\n";
+	cout << "Divisao: " << divisao (primeiroNum, segundoNum) << "\n";
+	
+	return 0;
+}
+      
